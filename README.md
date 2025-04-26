@@ -33,7 +33,8 @@ Access your Minecraft server at port 25565 and connect to the Samba share at `\\
 ## Ports
 
 - **25565**: Minecraft server
-- **25575**: RCON port
+- **25565**: UDP QUERY Port (Optional) 
+- **25575**: RCON port (Optional)
 - **3306**: MySQL
 - **445/139**: SMB/CIFS
 - **137/138**: NetBIOS (UDP)
